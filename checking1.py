@@ -28,6 +28,6 @@ def checking1(state, count):
         for m in range(count):
             if isinstance(state[k][m], list) and len(state[k][m]) == 0:
                 result = False
-                print(K)
+              
 
     return result

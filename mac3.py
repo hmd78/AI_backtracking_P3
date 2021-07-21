@@ -79,5 +79,5 @@ def mac3(state, count, c, d):
                 return False
             if not mac3(state, count, c, j-1):
                 return False
-
+    print('dd')
     return True

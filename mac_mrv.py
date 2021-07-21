@@ -66,4 +66,5 @@ else:
     print("doesnt have answer")
 
 print("--- %s seconds ---" % (time.time() - start_time))
+print("finish")
 

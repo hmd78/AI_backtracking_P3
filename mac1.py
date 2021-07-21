@@ -64,6 +64,5 @@ def mac1(state, count, c, d):
                     return False
     elif column[1] > count/2:
         return False
-    print(state)
     return True
 

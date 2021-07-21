@@ -16,6 +16,7 @@ def solve_puzzle(state, count):
         return True
 
     # MRV
+    d = None
     x = None
     y = None
     a = None

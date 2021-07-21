@@ -4,4 +4,3 @@ def normalize(tmp_state, count, c, d):
             tmp_state[c][j] = tmp_state[c][j][0]
         if isinstance(tmp_state[j][d], list) and len(tmp_state[j][d]) == 1:
             tmp_state[j][d] = tmp_state[j][d][0]
-        print(tmp_state)
